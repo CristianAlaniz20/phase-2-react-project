@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import { Outlet } from 'react-router-dom';
 
 function App() {
+  const [balls, setBalls] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/balls')
+   .then(response => response.json())
+   .then(data => setBalls(data));
+  }, []);
+  
   return (
     <div className="App">
       <header>
@@ -15,7 +23,7 @@ function App() {
         <br />
         <NavBar />
       </header>
-      <Outlet />
+      <Outlet context={balls} />
     </div>
   );
 }

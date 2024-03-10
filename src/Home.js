@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div>
-            <p>This is the home page</p>
+            <p>Explore the different official game balls of the World Cups!</p>
         </div>
     )
 }
