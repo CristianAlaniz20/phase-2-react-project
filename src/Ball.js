@@ -5,3 +5,5 @@ function Ball() {
         </div>
     )
 }
+
+export default Ball;
