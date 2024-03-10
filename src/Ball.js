@@ -13,7 +13,7 @@ function Ball() {
                             image={ball.image}
                             name={ball.name}
                             year={ball.year}
-                            competion={ball.competition}
+                            competition={ball.competition}
                         />
                     )
                 })
