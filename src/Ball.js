@@ -1,7 +1,23 @@
+import { useOutletContext } from "react-router-dom";
+import AboutBall from "./AboutBall";
 function Ball() {
+    const balls = useOutletContext();
+
     return (
         <div>
-            <p>This is the ball page</p>
+            {
+                balls.map(ball => {
+                    return (
+                        <AboutBall 
+                            key={ball.id}
+                            image={ball.image}
+                            name={ball.name}
+                            year={ball.year}
+                            competion={ball.competition}
+                        />
+                    )
+                })
+            }
         </div>
     )
 }
