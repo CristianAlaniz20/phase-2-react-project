@@ -1,53 +1,39 @@
 {
   "balls": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Teamgeist",
       "year": 2006,
       "competition": "Germany World Cup",
       "image": "https://p7.hiclipart.com/preview/469/1000/45/2006-fifa-world-cup-final-2010-fifa-world-cup-adidas-teamgeist-ball-ball.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Jabulani",
       "year": 2010,
       "competition": "South Africa World Cup",
       "image": "https://i.pinimg.com/originals/e2/7f/7c/e27f7c1a50031ac659810d976902c12d.png"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Brazuca",
       "year": 2014,
       "competition": "Brazil World Cup",
       "image": "https://p7.hiclipart.com/preview/638/256/1013/2014-fifa-world-cup-brazil-adidas-brazuca-ball-adidas.jpg"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Telstar",
       "year": 2018,
       "competition": "Russia World Cup",
       "image": "https://icon2.cleanpng.com/20180619/ycv/kisspng-2018-world-cup-adidas-telstar-18-ball-adidas-tango-telstar18-5b28e045b2ba29.0813971315294055097321.jpg"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Al Rihla",
       "year": 2022,
       "competition": "Qatar World Cup",
       "image": "https://i.pinimg.com/originals/d2/3f/32/d23f32889a6270c82d95679e30ae985d.png"
-    },
-    {
-      "id": "24a0",
-      "name": "Starball",
-      "year": "2023",
-      "competition": "UEFA Champions League",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgftgFc3_iiSvu8livs8hfljFMqCXG1VfWrpXiPMc2NT3v2ikyX-EfXAqn3tB__GUhqzwohZpZlrw4xKJOnX58ep2EiTgrUSG7tVoxPY17vx_9ljtHy5qr8z3A_VZlSyjrd4-4z1GV5YfnXCX0nYYYbUuB2DQSH90H5CuvMR4a2TVPHOn6vk24C56hC/s1600/adidas%202023%20ucl%20ball%202%20%282%29.jpg"
-    },
-    {
-      "id": "7308",
-      "name": "Ball",
-      "year": "2003",
-      "competition": "Concacaf",
-      "image": "http/Url"
     }
   ]
 }
