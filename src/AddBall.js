@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useOutletContext } from 'react-router-dom';
 
 function AddBall() {
     const [ballForm, setBallForm] = useState({
@@ -7,7 +8,21 @@ function AddBall() {
         competition: "",
         image: ""
     })
-    console.log(ballForm)
+    const { setBalls, balls } = useOutletContext();
+    
+    function handleSubmit(event) {
+        event.preventDefault();
+        fetch('http://localhost:3000/balls', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(ballForm)
+        })
+        .then(response => response.json())
+        .then(newBall => setBalls([...balls, newBall]))
+        .catch(error => console.error(error));
+    }
 
     function handleInputChange(event) {
         setBallForm({
@@ -20,7 +35,7 @@ function AddBall() {
         <div>
             <h2>Your favorite ball not on the list? Add it:</h2>
             <br />
-            <form>
+            <form onSubmit={handleSubmit} >
                 <label htmlFor="name">Name: </label>
                 <input 
                     type="text"

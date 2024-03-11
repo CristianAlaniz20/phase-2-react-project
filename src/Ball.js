@@ -1,7 +1,7 @@
 import { useOutletContext } from "react-router-dom";
 import AboutBall from "./AboutBall";
 function Ball() {
-    const balls = useOutletContext();
+    const { balls } = useOutletContext();
 
     return (
         <div>

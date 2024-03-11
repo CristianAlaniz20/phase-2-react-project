@@ -3,7 +3,6 @@ import App from "./App";
 import Home from "./Home";
 import ErrorPage from "./ErrorPage";
 import Ball from "./Ball";
-import AboutBall from "./AboutBall";
 import AddBall from "./AddBall";
 
 const routes = ([
@@ -19,12 +18,6 @@ const routes = ([
             {
                 path: '/ball',
                 element: <Ball />,
-                children: [
-                    {
-                        path: '/ball/:id',
-                        element: <AboutBall />
-                    }
-                ]
             },
             {
                 path: "/add-ball",

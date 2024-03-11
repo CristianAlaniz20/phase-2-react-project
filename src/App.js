@@ -23,7 +23,7 @@ function App() {
         <br />
         <NavBar />
       </header>
-      <Outlet context={balls} />
+      <Outlet context={{ balls, setBalls }} />
     </div>
   );
 }
