@@ -8,6 +8,8 @@ function AddBall() {
         competition: "",
         image: ""
     })
+    const [isSubmitted, setIsSubmitted] = useState(false);
+
     const { setBalls, balls } = useOutletContext();
     
     function handleSubmit(event) {
@@ -22,6 +24,7 @@ function AddBall() {
         .then(response => response.json())
         .then(newBall => setBalls([...balls, newBall]))
         .catch(error => console.error(error));
+        setIsSubmitted(!isSubmitted);
     }
 
     function handleInputChange(event) {
@@ -72,7 +75,9 @@ function AddBall() {
                     value={ballForm.image}
                     onChange={handleInputChange}
                 />
+                <button type="submit">Submit</button>
             </form>
+            {isSubmitted ? <h2>Your form has been submitted!</h2> : null}
         </div>
     )
 }
