@@ -15,15 +15,19 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>World Cup Soccer Balls</h1>
         <img 
-          src='https://i.pinimg.com/736x/aa/e1/81/aae1810d59c7908b8b54e5c949b9b2c7.jpg'
+          src='https://thumbs.dreamstime.com/b/fifa-world-cup-thropy-reproduction-original-soccer-isolated-white-gold-trophy-awarded-to-winners-41868445.jpg'
           alt='World Cup'
           className='WorldCup' 
         />
-        <br />
-        <NavBar />
+        <h1>World Cup Soccer Balls</h1>
+        <img 
+          src='https://thumbs.dreamstime.com/b/fifa-world-cup-thropy-reproduction-original-soccer-isolated-white-gold-trophy-awarded-to-winners-41868445.jpg'
+          alt='World Cup'
+          className='WorldCup' 
+        />
       </header>
+      <NavBar />
       <Outlet context={{ balls, setBalls }} />
     </div>
   );
