@@ -14,7 +14,7 @@ function AboutBall({ image, name, year, competition }) {
             {
                 showDetails ? (
                     <div>
-                        <p className="description">Year: {year}</p>
+                        <p className="description">Release Year: {year}</p>
                         <p className="description">Competition: {competition}</p>
                     </div>
                 ) : null

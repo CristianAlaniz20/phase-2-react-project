@@ -9,8 +9,12 @@
     display: inline-block;
     align-items: center;
     vertical-align: top;
+    margin: 10px;
 }
 
 .description {
     font-size: medium;
+    background-color: darkslategrey;
+    width: fit-content;
+    display: inline-block;
 }
