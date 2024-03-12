@@ -1,0 +1,20 @@
+nav {
+    padding: 50px;
+}
+
+.nav-link {
+    display: inline-flexbox;
+    box-sizing: border-box;
+    width: 60px;
+    padding: 5px;
+    margin: 0 6px 6px;
+    background: gray;
+    text-decoration: none;
+    text-align: center;
+    font-size: min(10vw, 15px) ;
+    color: white;
+}
+
+.active {
+    background: darkolivegreen;
+}
