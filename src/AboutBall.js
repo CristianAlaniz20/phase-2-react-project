@@ -8,14 +8,14 @@ function AboutBall({ image, name, year, competition }) {
     }
 
     return (
-        <div>
+        <div className="ball-card">
             <h2>{name}</h2>
             <img src={image} alt="soccer ball" className="Ball" onClick={handleClick} />
             {
                 showDetails ? (
                     <div>
-                        <p>Year: {year}</p>
-                        <p>Competition: {competition}</p>
+                        <p className="description">Year: {year}</p>
+                        <p className="description">Competition: {competition}</p>
                     </div>
                 ) : null
             }

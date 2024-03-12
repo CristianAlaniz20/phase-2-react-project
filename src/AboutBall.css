@@ -1,4 +1,16 @@
 .Ball {
-    height: 100px;
+    height: 300px;
     width: auto;
+}
+
+.ball-card {
+    width: 310px;
+    height: fit-content;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+}
+
+.description {
+    font-size: medium;
 }
