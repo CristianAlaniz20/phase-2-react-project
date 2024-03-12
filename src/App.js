@@ -18,7 +18,8 @@ function App() {
         <h1>World Cup Soccer Balls</h1>
         <img 
           src='https://i.pinimg.com/736x/aa/e1/81/aae1810d59c7908b8b54e5c949b9b2c7.jpg'
-          alt='World Cup' 
+          alt='World Cup'
+          className='WorldCup' 
         />
         <br />
         <NavBar />

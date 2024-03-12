@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./AboutBall.css"
 function AboutBall({ image, name, year, competition }) {
     const [showDetails, setShowDetails] = useState(false);
     
@@ -8,11 +9,11 @@ function AboutBall({ image, name, year, competition }) {
 
     return (
         <div>
-            <img src={image} alt="soccer ball" onClick={handleClick} />
+            <h2>{name}</h2>
+            <img src={image} alt="soccer ball" className="Ball" onClick={handleClick} />
             {
                 showDetails ? (
                     <div>
-                        <h2>{name}</h2>
                         <p>Year: {year}</p>
                         <p>Competition: {competition}</p>
                     </div>
