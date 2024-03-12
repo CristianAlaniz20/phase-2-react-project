@@ -8,7 +8,7 @@ function Home() {
                 src="https://www.youtube.com/embed/8n5dJwWXrbo?autoplay=1&start=55"
                 frameBorder="0"
                 allowFullScreen
-                title="Thinking in React"
+                title="World Cup Song"
             />
         </div>
     )
