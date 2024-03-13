@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useOutletContext } from 'react-router-dom';
+import "./AddBall.css"
 
 function AddBall() {
     const [ballForm, setBallForm] = useState({
@@ -47,6 +48,7 @@ function AddBall() {
                     placeholder="ball name"
                     value={ballForm.name}
                     onChange={handleInputChange}
+                    className='input'
                 />
                 <label htmlFor="year">Year: </label>
                 <input 
@@ -56,6 +58,7 @@ function AddBall() {
                     placeholder="year made"
                     value={ballForm.year}
                     onChange={handleInputChange}
+                    className='input'
                 />
                 <label htmlFor="competition">Competition: </label>
                 <input 
@@ -65,6 +68,7 @@ function AddBall() {
                     placeholder="competition name"
                     value={ballForm.competition}
                     onChange={handleInputChange}
+                    className='input'
                 />
                 <label htmlFor="image">Image: </label>
                 <input 
@@ -74,6 +78,7 @@ function AddBall() {
                     placeholder="image url"
                     value={ballForm.image}
                     onChange={handleInputChange}
+                    className='input'
                 />
                 <button type="submit">Submit</button>
             </form>
