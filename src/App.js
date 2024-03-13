@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import NavBar from './NavBar';
+import Header from './Header';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -14,19 +15,7 @@ function App() {
   
   return (
     <div className="App">
-      <header>
-        <img 
-          src='https://thumbs.dreamstime.com/b/fifa-world-cup-thropy-reproduction-original-soccer-isolated-white-gold-trophy-awarded-to-winners-41868445.jpg'
-          alt='World Cup'
-          className='WorldCup' 
-        />
-        <h1>World Cup Soccer Balls</h1>
-        <img 
-          src='https://thumbs.dreamstime.com/b/fifa-world-cup-thropy-reproduction-original-soccer-isolated-white-gold-trophy-awarded-to-winners-41868445.jpg'
-          alt='World Cup'
-          className='WorldCup' 
-        />
-      </header>
+      <Header />
       <NavBar />
       <Outlet context={{ balls, setBalls }} />
     </div>
