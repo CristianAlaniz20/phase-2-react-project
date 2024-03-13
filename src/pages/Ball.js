@@ -1,5 +1,5 @@
 import { useOutletContext } from "react-router-dom";
-import AboutBall from "./AboutBall";
+import AboutBall from "../components/AboutBall";
 function Ball() {
     const { balls } = useOutletContext();
 

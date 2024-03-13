@@ -1,9 +1,9 @@
 import React from "react"
 import App from "./App";
-import Home from "./Home";
-import ErrorPage from "./ErrorPage";
-import Ball from "./Ball";
-import AddBall from "./AddBall";
+import Home from "./pages/Home";
+import ErrorPage from "./pages/ErrorPage";
+import Ball from "./pages/Ball";
+import AddBall from "./pages/AddBall";
 
 const routes = ([
     {

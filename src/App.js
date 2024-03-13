@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import NavBar from './NavBar';
-import Header from './Header';
+import NavBar from './components/NavBar';
+import Header from './components/Header';
 import { Outlet } from 'react-router-dom';
 
 function App() {
