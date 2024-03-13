@@ -40,7 +40,7 @@ function AddBall() {
             <h2>Your favorite ball not on the list? Add it:</h2>
             <br />
             <form onSubmit={handleSubmit} >
-                <label htmlFor="name">Name: </label>
+                <label htmlFor="name" >Name: </label>
                 <input 
                     type="text"
                     name="name"
@@ -48,9 +48,8 @@ function AddBall() {
                     placeholder="ball name"
                     value={ballForm.name}
                     onChange={handleInputChange}
-                    className='input'
                 />
-                <label htmlFor="year">Year: </label>
+                <label htmlFor="year" >Year: </label>
                 <input 
                     type="text"
                     name="year"
@@ -58,9 +57,8 @@ function AddBall() {
                     placeholder="year made"
                     value={ballForm.year}
                     onChange={handleInputChange}
-                    className='input'
                 />
-                <label htmlFor="competition">Competition: </label>
+                <label htmlFor="competition" >Competition: </label>
                 <input 
                     type="text"
                     name="competition"
@@ -68,9 +66,8 @@ function AddBall() {
                     placeholder="competition name"
                     value={ballForm.competition}
                     onChange={handleInputChange}
-                    className='input'
                 />
-                <label htmlFor="image">Image: </label>
+                <label htmlFor="image" >Image: </label>
                 <input 
                     type="text"
                     name="image"
@@ -78,7 +75,6 @@ function AddBall() {
                     placeholder="image url"
                     value={ballForm.image}
                     onChange={handleInputChange}
-                    className='input'
                 />
                 <button type="submit">Submit</button>
             </form>

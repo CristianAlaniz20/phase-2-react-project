@@ -1,35 +1,35 @@
 {
   "balls": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Teamgeist",
       "year": 2006,
       "competition": "Germany World Cup",
       "image": "https://i.pinimg.com/474x/ac/22/a2/ac22a28dbc67c46bced876557a34f461.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Jabulani",
       "year": 2010,
       "competition": "South Africa World Cup",
       "image": "https://p1.hiclipart.com/preview/937/93/264/world-cup-balls-white-adidas-jabulani-soccer-ball.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Brazuca",
       "year": 2014,
       "competition": "Brazil World Cup",
       "image": "https://i.etsystatic.com/41490173/r/il/b0cf34/4798025362/il_794xN.4798025362_o8ee.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Telstar",
       "year": 2018,
       "competition": "Russia World Cup",
       "image": "https://m.media-amazon.com/images/I/41pncBt0L9L._AC_.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Al Rihla",
       "year": 2022,
       "competition": "Qatar World Cup",
