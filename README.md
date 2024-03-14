@@ -29,6 +29,8 @@ By clicking on the ball, it will display the year the ball was released as well 
 
 In this tab you can add any ball that is missing. Simply fill out the form hit the submit button and Voila! Go back to the Balls tab and you will see the ball you added displayed along with the rest.
 
+![Add Ball Tab](Untitledvideo-MadewithClipchamp7-ezgif.com-video-to-gif-converter.gif)
+
 ## Contributions
 
 This website is for viewing purposes only. If you have any questions please open an issue.
