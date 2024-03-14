@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# World Cup Soccer Balls
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website allows you to check out different World Cup soccer balls as well as add any additional balls that may be missing.
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+In the project directory, run:
+
+### `json-server --watch db.json`
+
+Run this script to so that the contents of the database can be retrieved 
+and shown in the website.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run this script to start the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+### Balls Tab
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the Balls tab, you can view all the World Cup official balls.
 
-### `npm run build`
+![Ball Tab](Untitledvideo-MadewithClipchamp6-ezgif.com-video-to-gif-converter.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+By clicking on the ball, it will display the year the ball was released as well as the competition it was used in. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Add Balls Tab
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In this tab you can add any ball that is missing. Simply fill out the form hit the submit button and Voila! Go back to the Balls tab and you will see the ball you added displayed along with the rest.
 
-### `npm run eject`
+## Contributions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This website is for viewing purposes only. If you have any questions please open an issue.
